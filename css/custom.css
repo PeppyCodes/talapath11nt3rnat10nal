@@ -1,0 +1,90 @@
+section {
+  padding-top: 4em;
+  padding-bottom: 4em; }
+  section.PeppyCodes_Book {
+    background: linear-gradient(rgba(179, 90, 0, 0.7), rgba(179, 90, 0, 0.7)), url(../images/OE7LK3011.jpg); }
+  section.PeppyCodes_Profile {
+    background-color: white; }
+
+/* Menu Start */
+.sticky-topbar {
+  width: 100%; }
+
+.top-bar,
+.top-bar ul,
+.top-bar ul li a {
+  background-color: #b35a00;
+  color: #FFF; }
+
+/* Menu End */
+/* Footer Start */
+.marketing-site-footer {
+  background: #b35a00;
+  color: #ffc080;
+  padding: 2rem 0 0; }
+  .marketing-site-footer .marketing-site-footer-menu-social a {
+    color: white; }
+  .marketing-site-footer .column-block {
+    margin-bottom: 30px; }
+  .marketing-site-footer > .row {
+    margin-bottom: 1rem; }
+
+.marketing-site-footer-name {
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 2rem; }
+
+.marketing-site-footer-title {
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 1.25rem; }
+
+.marketing-site-footer-block {
+  display: flex;
+  margin-bottom: 1rem; }
+  .marketing-site-footer-block .fa {
+    font-size: 2rem;
+    color: #4d2700; }
+  .marketing-site-footer-block p {
+    margin-left: 1rem;
+    line-height: 1.125rem; }
+
+.marketing-site-footer-bottom {
+  background: #4d2700;
+  padding: 1rem 0; }
+  .marketing-site-footer-bottom p,
+  .marketing-site-footer-bottom .menu {
+    margin-bottom: 0; }
+  .marketing-site-footer-bottom .marketing-site-footer-bottom-links {
+    justify-content: flex-end; }
+    .marketing-site-footer-bottom .marketing-site-footer-bottom-links a {
+      color: #ffc080; }
+
+/* Footer End */
+/* Image Gallery Start */
+.featured-image-block-grid-header {
+  margin-left: auto;
+  margin-right: auto; }
+
+.featured-image-block {
+  margin-bottom: 20px; }
+  .featured-image-block .featured-image-block-title {
+    font-weight: 600;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1em;
+    color: #404040; }
+  .featured-image-block a:hover p {
+    color: #000000; }
+
+/* Image Gallery End */
+.tight-pack {
+  padding: 0px; }
+
+h2 {
+  color: #b35a00;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+/*# sourceMappingURL=custom.css.map */

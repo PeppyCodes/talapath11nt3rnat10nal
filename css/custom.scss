@@ -1,0 +1,169 @@
+
+// <style> 
+// @font-face
+// {
+//     font-family: myTamilFont;
+//     src: url(tamil_font.ttf);
+// }
+
+// div
+// {
+//     font-family: myTamilFont;
+// }
+// </style>
+
+$primary-color:#b35a00;
+$white:white;
+
+
+    
+section {
+    padding-top: 4em;
+    padding-bottom: 4em;
+    &.PeppyCodes_Book {
+        background: linear-gradient(rgba($primary-color, 0.7), rgba($primary-color, 0.7)), url(../images/OE7LK3011.jpg);
+        
+    }
+    &.PeppyCodes_Profile {
+        background-color: lighten($primary-color, 100);
+    }
+    
+}
+/* Menu Start */
+
+.sticky-topbar {
+  width: 100%;
+}
+.top-bar,
+.top-bar ul,
+.top-bar ul li a {
+    background-color: $primary-color;
+    color: #FFF;
+}
+
+/* Menu End */
+
+
+/* Footer Start */
+
+$marketing-site-footer-bg: $primary-color;
+
+.marketing-site-footer {
+  background: $marketing-site-footer-bg;
+  color: lighten($marketing-site-footer-bg, 40%);
+  padding: 2rem 0 0;
+
+  .marketing-site-footer-menu-social a {
+    color: $white;
+  }
+
+  .column-block {
+    margin-bottom: 30px;
+  }
+
+  > .row {
+    margin-bottom: 1rem;
+  }
+
+  // @include breakpoint(small only) {
+  //   .columns {
+  //     margin-bottom: 2rem;
+  //   }
+  // }
+}
+
+.marketing-site-footer-name {
+  color: $white;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.marketing-site-footer-title {
+  color: $white;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.marketing-site-footer-block {
+  display: flex;
+  margin-bottom: 1rem;
+
+  .fa {
+    font-size: 2rem;
+    color: darken($marketing-site-footer-bg, 20%);
+  }
+
+  p {
+    margin-left: 1rem;
+    line-height: 1.125rem;
+  }
+}
+
+.marketing-site-footer-bottom {
+  background: darken($marketing-site-footer-bg, 20%);
+  padding: 1rem 0;
+
+  p,
+  .menu {
+    margin-bottom: 0;
+  }
+
+  .marketing-site-footer-bottom-links {
+    justify-content: flex-end;
+
+    a {
+      color: lighten($marketing-site-footer-bg, 40%);
+    }
+
+    // @include breakpoint(medium down) {
+    //   justify-content: center;
+    // }
+  }
+
+  // @include breakpoint(medium down) {
+  //   text-align: center;
+  // }
+}
+
+
+/* Footer End */
+
+
+/* Image Gallery Start */
+
+$foundation-palette:(primary:#000000);
+
+.featured-image-block-grid-header {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.featured-image-block {
+
+  margin-bottom: 20px;
+  
+  .featured-image-block-title {
+    font-weight: 600;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1em;
+    color: #404040;
+  }
+ 
+  a:hover {
+    p {
+      color: map-get($foundation-palette, primary);
+    }
+  }
+}
+
+
+
+
+/* Image Gallery End */
+
+.tight-pack{padding:0px;}
+// section{padding-top: 1em;padding-bottom: 1em;}
+
+h2{color:$primary-color;font-weight: bold;text-transform: uppercase;}
