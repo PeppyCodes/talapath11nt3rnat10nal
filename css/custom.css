@@ -1,8 +1,11 @@
 @charset "UTF-8";
 /* News Slider Start*/
+#exampleModal1 {
+  max-width: 80%;
+  max-height: 50%; }
+
 .news-image-gallery-container {
   background-color: white;
-  padding-top: 1em;
   padding-bottom: 1em; }
   .news-image-gallery-container .row {
     padding: 0em;
