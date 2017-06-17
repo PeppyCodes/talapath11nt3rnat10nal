@@ -1,9 +1,7 @@
 @charset "UTF-8";
 /* News Slider Start*/
-#exampleModal1 {
-  max-width: 80%;
-  max-height: 50%; }
-
+/* modal window start */
+/* Modal window End */
 .news-image-gallery-container {
   background-color: white;
   padding-bottom: 1em; }
